@@ -447,7 +447,7 @@
                     <th scope="row"><?php esc_html_e('Header Buttons', 'chatkit-wp'); ?></th>
                     <td>
                         <div style="background:#fff3cd; border-left:3px solid #ffc107; padding:10px; margin-bottom:15px;">
-                            <strong>⚠️ <?php esc_html_e('Validated Icons Only:', 'chatkit-wp'); ?></strong> home, settings-cog, menu
+                            <strong>⚠️ <?php esc_html_e('Validated Icons Only:', 'chatkit-wp'); ?></strong> globe, settings-cog, menu
                         </div>
                         
                         <div style="margin-bottom:20px;">
@@ -464,7 +464,7 @@
                                 <option value=""><?php esc_html_e('None', 'chatkit-wp'); ?></option>
                                 <option value="menu" <?php selected($header_left_icon ?? '', 'menu'); ?>><?php esc_html_e('☰ Menu', 'chatkit-wp'); ?></option>
                                 <option value="settings-cog" <?php selected($header_left_icon ?? '', 'settings-cog'); ?>><?php esc_html_e('⚙️ Settings', 'chatkit-wp'); ?></option>
-                                <option value="home" <?php selected($header_left_icon ?? '', 'home'); ?>><?php esc_html_e('🏠 Home', 'chatkit-wp'); ?></option>
+                                <option value="globe" <?php selected($header_left_icon ?? '', 'globe'); ?>><?php esc_html_e('🌍', 'chatkit-wp'); ?></option>
                             </select>
                             <input type="url" name="chatkit_header_left_url"
                                    value="<?php echo esc_attr($header_left_url ?? ''); ?>"
@@ -475,7 +475,7 @@
                             <p><strong><?php esc_html_e('Right Button:', 'chatkit-wp'); ?></strong></p>
                             <select name="chatkit_header_right_icon" style="margin-bottom:8px;">
                                 <option value=""><?php esc_html_e('None', 'chatkit-wp'); ?></option>
-                                <option value="home" <?php selected($header_right_icon ?? '', 'home'); ?>><?php esc_html_e('🏠 Home', 'chatkit-wp'); ?></option>
+                                <option value="globe" <?php selected($header_right_icon ?? '', 'globe'); ?>><?php esc_html_e('🌍', 'chatkit-wp'); ?></option>
                                 <option value="settings-cog" <?php selected($header_right_icon ?? '', 'settings-cog'); ?>><?php esc_html_e('⚙️ Settings', 'chatkit-wp'); ?></option>
                                 <option value="menu" <?php selected($header_right_icon ?? '', 'menu'); ?>><?php esc_html_e('☰ Menu', 'chatkit-wp'); ?></option>
                             </select>
